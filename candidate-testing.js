@@ -41,9 +41,9 @@ function gradeQuiz(candidateAnswers) {
   grade = (gpa / correctAnswers.length)*100
 
   if (grade < 80){
-    console.log(`>>> Overall Grade: ${grade}%, (${gpa} of 5 responses correct. <<<\n Status: FAILED!`)
+    console.log(`>>> Overall Grade: ${grade}% (${gpa} of 5 responses correct. <<<\n Status: FAILED!`)
   } else {
-    console.log(`>>> Overall Grade: ${grade}%, (${gpa} of 5 responses correct. <<<\n Status: PASSED!`)
+    console.log(`>>> Overall Grade: ${grade}% (${gpa} of 5 responses correct. <<<\n Status: PASSED!`)
   }
 
 
